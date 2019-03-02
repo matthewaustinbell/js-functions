@@ -17,11 +17,29 @@ console.log("hi");
 // const lastName2 = 'Ames';
 // console.log(`${firstName2} ${lastName2}`);
 
-const namePrinter = (firstName,lastName) => {
+const namePrinter = (firstName, lastName) => {
     console.log(`${firstName} ${lastName}`);
 };
 
 
 namePrinter('Zoe', "Ames");
 namePrinter('John', "Doe");
+namePrinter('Ames', 'Zoe')
 
+namePrinter(1,2)
+
+
+const nuggetizer = (animal) => {
+    return `processed ${animal}`;
+};
+
+console.log(nuggetizer('pig'));
+console.log(nuggetizer('fish'));
+console.log(nuggetizer('student'));
+console.log(nuggetizer('duck'));
+
+ const dogBreed = (dogName) => {
+     return`My favorite dog breed is} ${dogName}`)
+    };
+
+    console.log(dogBreed("lab"));
