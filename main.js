@@ -24,7 +24,6 @@ const namePrinter = (firstName, lastName) => {
 
 namePrinter('Zoe', "Ames");
 namePrinter('John', "Doe");
-
 namePrinter('Ames', 'Zoe')
 
 namePrinter(1,2)
@@ -38,3 +37,9 @@ console.log(nuggetizer('pig'));
 console.log(nuggetizer('fish'));
 console.log(nuggetizer('student'));
 console.log(nuggetizer('duck'));
+
+ const dogBreed = (dogName) => {
+     return`My favorite dog breed is} ${dogName}`)
+    };
+
+    console.log(dogBreed("lab"));
